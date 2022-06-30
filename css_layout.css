@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*CSS layout for CIS162
+Author:Y, Rithya
+Last updated: 2022/06/30
+*/
+
+/*html and body*/
+html{
+background-color:hsl(0, 100%, 17%);
+}
+body{
+color: rgb(255, 255, 255);
+background-color: black;
+}
+
+/*Headers*/
+h1,h2{
+color:purple;
+background-color:rgb(0,0,0);
+font-family:sans-serif;
+letter-spacing:0.1em;
+}
+
+/* Navigation*/
+nav{
+color:purple;
+background-color:rgb(0,0,0);
+font-family:sans-serif;
+letter-spacing:0.1em;
+font-size:0.8em;
+}
+nav>ul{
+line-height:2em;
+}
+
+/*footer*/
+body>footer address{
+color:purple;
+background-color:rgb(0,0,0);
+color:rgba(255,255,255,07);
+font:normal small-caps bold 0.8em/2em sans-serif;
+text-align: center;
+}
